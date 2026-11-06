@@ -18,3 +18,5 @@ for(let i = 0; i < prices.length; i++){
 }
 
 console.log("Total: ", total);
+
+document.querySelector("#total").textContent = "$"+ total;
